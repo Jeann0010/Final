@@ -1,0 +1,29 @@
+{
+    "recetas": [
+        {
+            "nombre": "arroz con pollo",
+            "ingredientes": ["Arroz", "Pollo", "Cebolla", "Pimiento"],
+            "imagen": "arroz.jpg"
+        },
+        {
+            "nombre": "ensalada",
+            "ingredientes": ["Lechuga", "Tomate", "Pepino", "Zanahoria"],
+            "imagen": "ensalada.jpg"
+        },
+        {
+            "nombre": "sopa de verduras",
+            "ingredientes": ["Zanahoria", "Apio", "Cebolla", "Calabacín"],
+            "imagen": "sopa.jpeg"
+        },
+        {
+            "nombre": "aguadito",
+            "ingredientes": ["Arroz", "Zanahoria", "Pollo","Agua"],
+            "imagen": "aguadito.jpg"
+        },
+        {
+            "nombre": "chaufa",
+            "ingredientes": ["Pollo", "Arroz", "Cebolla", "Huevo"],
+            "imagen": "chaufo.jpg"
+        }
+    ]
+}

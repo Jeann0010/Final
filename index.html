@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina Digital</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="resultado">
+            <h2>Felicidades has conseguido cocinar un</h2>
+            <h3 id="nombrePlatillo">platillo</h3>
+            <div class="ingredientes">
+                <h3>Ingredientes</h3>
+                <p id="ingrediente1">Ingrediente 1</p>
+                <p id="ingrediente2">Ingrediente 2</p>
+                <p id="ingrediente3">Ingrediente 3</p>
+                <p id="ingrediente4">Ingrediente 4</p>
+            </div>
+            <div class="imagen" id="imagenPlatillo">
+                Imagen
+            </div>
+        </div>
+        <div class="seleccion">
+            <h3>Ingredientes</h3>
+            <form id="ingredientesForm">
+                <label><input type="checkbox" name="ingrediente" value="Arroz"> Arroz</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Pollo"> Pollo</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Cebolla"> Cebolla</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Pimiento"> Pimiento</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Lechuga"> Lechuga</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Tomate"> Tomate</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Pepino"> Pepino</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Zanahoria"> Zanahoria</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Apio"> Apio</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Calabacín"> Calabacín</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Agua"> Agua</label><br>
+                <label><input type="checkbox" name="ingrediente" value="Huevo"> Huevo</label><br>
+                <button type="button" onclick="cocinar()">Cocinar</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
